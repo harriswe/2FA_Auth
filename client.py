@@ -1,7 +1,7 @@
 from socket import socket, AF_INET, SOCK_STREAM
 
 client_socket = socket(AF_INET, SOCK_STREAM)
-client_socket.connect(('127.0.0.1', 5000))
+client_socket.connect(('127.0.0.1', 9000))
 user_input = input ("> ")
 # Allocate an extensible array
 b = bytearray()
